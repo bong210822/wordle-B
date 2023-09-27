@@ -1,0 +1,27 @@
+/*② board-row끼리 떨어지려면 그 상위요소인 main에 gap을 줘야한다. */
+main {
+  display: flex;
+  /*③ gap을 전부 적용하면 row들이 가로로 붙음 → 세로로 배치방향 바꿔주기 */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*① board-row에 gap을 적용하면 하위요소인 5개의 div들이 서로 떨어진다. */
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #d3d6da;
+  width: 60px;
+  height: 60px;
+}

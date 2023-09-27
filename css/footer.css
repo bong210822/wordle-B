@@ -1,0 +1,44 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.keyboard-column {
+  width: 47px;
+  height: 60px;
+  background-color: #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  border-radius: 6px;
+}
+
+.keyboard-column wide {
+  width: 75px;
+  height: 60px;
+  background-color: #d3d6da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d3d6da;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.keyboard-block_act img {
+  width: 25px;
+}
